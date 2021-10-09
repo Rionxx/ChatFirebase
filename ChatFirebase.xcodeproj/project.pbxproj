@@ -18,6 +18,7 @@
 		EA57618F2712560A00FCAEE3 /* ChatFirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA57618E2712560A00FCAEE3 /* ChatFirebaseUITests.swift */; };
 		EA5761912712560A00FCAEE3 /* ChatFirebaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5761902712560A00FCAEE3 /* ChatFirebaseUITestsLaunchTests.swift */; };
 		EA57619E2712574600FCAEE3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA57619D2712574600FCAEE3 /* GoogleService-Info.plist */; };
+		EA7161F0271261D100C265B5 /* iDData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7161EF271261D100C265B5 /* iDData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		EA57618E2712560A00FCAEE3 /* ChatFirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatFirebaseUITests.swift; sourceTree = "<group>"; };
 		EA5761902712560A00FCAEE3 /* ChatFirebaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatFirebaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EA57619D2712574600FCAEE3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EA7161EF271261D100C265B5 /* iDData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +110,6 @@
 				C1AFD4F2752E659A7CBF5631 /* Pods-ChatFirebaseTests.debug.xcconfig */,
 				0C3E83220440BDADBF9959AD /* Pods-ChatFirebaseTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -137,6 +138,8 @@
 		EA5761722712560900FCAEE3 /* ChatFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				EA7161EE271261B700C265B5 /* Views */,
+				EA7161ED271261A900C265B5 /* Models */,
 				EA5761732712560900FCAEE3 /* ChatFirebaseApp.swift */,
 				EA5761752712560900FCAEE3 /* ContentView.swift */,
 				EA5761772712560A00FCAEE3 /* Assets.xcassets */,
@@ -169,6 +172,21 @@
 				EA5761902712560A00FCAEE3 /* ChatFirebaseUITestsLaunchTests.swift */,
 			);
 			path = ChatFirebaseUITests;
+			sourceTree = "<group>";
+		};
+		EA7161ED271261A900C265B5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EA7161EF271261D100C265B5 /* iDData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EA7161EE271261B700C265B5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -410,6 +428,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA7161F0271261D100C265B5 /* iDData.swift in Sources */,
 				EA5761762712560900FCAEE3 /* ContentView.swift in Sources */,
 				EA5761742712560900FCAEE3 /* ChatFirebaseApp.swift in Sources */,
 			);
